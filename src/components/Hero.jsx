@@ -3,6 +3,11 @@ import { motion } from "framer-motion"
 import miFotoHero from "../assets/hero3.jpeg" 
 
 export default function Hero() {
+  const scrollToProjects = () => {
+    // Busca la sección por su ID y hace un scroll suave hacia ella
+    document.getElementById('proyectos').scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <section className="hero">
       <div className="hero-content">
@@ -19,7 +24,8 @@ export default function Hero() {
               No solo diseño objetos o espacios. <br></br>
               Diseño sensaciones, atmósferas y memorias que permanecen.
           </p>
-          <button>Explorar Proyectos</button>
+          {/* AQUÍ ESTÁ LA MAGIA DEL BOTÓN */}
+          <button onClick={scrollToProjects}>Explorar Proyectos</button>
         </motion.div>
 
         {/* COLUMNA DERECHA: IMAGEN */}

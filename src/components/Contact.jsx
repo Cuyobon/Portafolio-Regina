@@ -30,6 +30,12 @@ export default function Contact() {
         <a href="/CV_Regina_Briseno.pdf" download className="cv-button">
           Descargar CV
         </a>
+
+        {/* --- NUEVA LEYENDA DE COLABORADORES --- */}
+        <p style={{ fontSize: '0.85rem', opacity: 0.7, marginTop: '60px', textAlign: 'center', lineHeight: '1.5' }}>
+          * Algunos de los proyectos presentados en este portafolio fueron desarrollados en colaboración académica con compañeros de la Universidad Cuauhtémoc Querétaro.
+        </p>
+
       </div>
     </footer>
   )

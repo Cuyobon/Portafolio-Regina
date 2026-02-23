@@ -69,7 +69,7 @@ const [isMobile, setIsMobile] = useState(window.innerWidth <= 768)
   }, [])
 
   return (
-    <section id="projects" className="section">
+    <section id="proyectos" className="section">
       <motion.h2
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
