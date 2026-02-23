@@ -22,7 +22,7 @@ export default function Navbar() {
       <h1>Regina Briseño</h1>
       <div>
         <a href="#about">Sobre mí</a>
-        <a href="#projects">Proyectos</a>
+        <a href="#proyectos">Proyectos</a>
         <a href="#contact">Contacto</a>
 
             {/* --- NUEVO BOTÓN DE CV --- */}
